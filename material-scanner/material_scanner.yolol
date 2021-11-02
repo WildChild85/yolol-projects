@@ -1,0 +1,4 @@
+n="\n"
+sr="" itr=0 if :matScan<1 then :results="OFF" goto2 end :scan=1
+if itr<:ScnRslt then :ind=itr sr+=:mat+n+:vol+n itr+=1 goto3 end
+:results=sr goto2

@@ -1,0 +1,11 @@
+n="\n" h="h " m="m " s="s" hs=3600 hm=60 r="Fuel Rods" p="Propellant"
+frt="-" prt="-" frs=:FuelChamberUnitRate/100*60 prs=:FlowId-:FIDO
+frsec=:FT1/frs prsec=:Propellant/prs
+frhm=frsec%hs frh=(frsec-frhm)/hs frmm=frhm%hm frm=(frhm-frmm)/hm
+frsm=frmm%1 frss=frmm-frsm prhm=prsec%hs prh=(prsec-prhm)/hs
+prmm=prhm%hm prm=(prhm-prmm)/hm prsm=prmm%1 prss=prmm-prsm
+range=0 rngL="Range"
+if frs>0 then frt=frh+h+frm+m+frss+s end
+if prs>0 then prt=prh+h+prm+m+prss+s end
+if :s>0 and prs>0 then range=prsec*:s/1000 end
+:Fuel_Time=n+r+n+frt+n+p+n+prt+n+rngL+n+range :FPS=frs :PPS=prs goto1

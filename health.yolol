@@ -1,0 +1,3 @@
+:HealthActive=1 n="\n"
+sfl="Strength Factor: " del="Durability Errors: "
+:Health = n+sfl+:StrengthFactor+n+n+del+:DurabilityErrors goto3

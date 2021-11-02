@@ -1,0 +1,12 @@
+if :FSC==1 then goto2 end goto1
+:FS="\n\nO----------\n\n    in     \n\nO----------" goto3
+:FS="\n\nO---------<\n\n    in     \n\nO----------" goto4
+:FS="\n\nO--------<-\n\n    in     \n\nO----------" goto5
+:FS="\n\nO-------<--\n\n    in     \n\nO----------" goto6
+:FS="\n\nO------<---\n\n    in     \n\nO----------" goto7
+:FS="\n\nO-----<----\n\n    in     \n\nO----------" goto8
+:FS="\n\nO----<-----\n\n    in     \n\nO----------" goto9
+:FS="\n\nO---<------\n\n    in     \n\nO----------" goto10
+:FS="\n\nO--<-------\n\n    in     \n\nO----------" goto11
+:FS="\n\nO-<--------\n\n    in     \n\nO----------" goto12
+:FS="\n\nO<---------\n\n    in     \n\nO----------" goto1

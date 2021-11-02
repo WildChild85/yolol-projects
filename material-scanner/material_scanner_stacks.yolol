@@ -1,0 +1,4 @@
+n="\n" :turretPitchML=-11 :turretPitchMR=-11
+sr="" itr=0 if :matScan<1 then :stacks="OFF" goto2 end :scan=1
+if itr<:ScnRslt then :ind=itr sr+=:mat+n+:vol/1728+n itr+=1 goto3 end
+:stacks=sr goto2

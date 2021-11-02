@@ -1,0 +1,4 @@
+if :PowerOn!=1 then :GeneratorUnitRateLimit=0 goto1 end
+:GeneratorUnitRateLimit = 1000- :StoredBatteryPower/10 goto1
+:GeneratorUnitRateLimit = 1000 goto1
+goto1

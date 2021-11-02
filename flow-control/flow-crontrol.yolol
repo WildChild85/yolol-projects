@@ -1,0 +1,3 @@
+if :FSC==0 then :FlowIn=1 :FlowOut=1 end goto2
+if :FSC==1 then :FlowIn=1 :FlowOut=0 end goto3
+if :FSC==-1 then :FlowIn=0 :FlowOut=1 end goto1

@@ -1,0 +1,3 @@
+d=5.36 o=2.5 min=2 max=20 pi=3.142 r=180/pi :MTP=-2
+x=(:MTRD+o)/d if :Mine==0 or :MTRD<min or :MTRD>max then goto2 end
+:MTP=(pi/2-1/x+1/(3*x^3)-1/(5*x^5)+1/(7*x^7))*r-90 goto2
