@@ -1,21 +1,21 @@
 {
-    "docs": "https://github.com/WildChild85/yolol-projects/blob/master/flow-control/README.md",
+    "docs": "https://raw.githubusercontent.com/WildChild85/yolol-projects/master/flow-control/README.md",
     "scripts": [
         {
             "name": "Animation In/Out",
-            "uri": "https://github.com/WildChild85/yolol-projects/blob/master/flow-control/flow-control-animation-in-out.yolol"
+            "uri": "https://raw.githubusercontent.com/WildChild85/yolol-projects/master/flow-control/flow-control-animation-in-out.yolol"
         },
         {
             "name": "Animation In",
-            "uri": "https://github.com/WildChild85/yolol-projects/blob/master/flow-control/flow-control-animation-in.yolol"
+            "uri": "https://raw.githubusercontent.com/WildChild85/yolol-projects/master/flow-control/flow-control-animation-in.yolol"
         },
         {
             "name": "Animation Out",
-            "uri": "https://github.com/WildChild85/yolol-projects/blob/master/flow-control/flow-control-animation-out.yolol"
+            "uri": "https://raw.githubusercontent.com/WildChild85/yolol-projects/master/flow-control/flow-control-animation-out.yolol"
         },
         {
             "name": "Flow Control",
-            "uri": "https://github.com/WildChild85/yolol-projects/blob/master/flow-control/flow-crontrol.yolol"
+            "uri": "https://raw.githubusercontent.com/WildChild85/yolol-projects/master/flow-control/flow-crontrol.yolol"
         }
     ]
 }

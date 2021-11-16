@@ -1,6 +1,6 @@
-minA=-20 maxA=20 if :Mine == 1 then goto2 else goto1 end
-:Coll=1 :MRF=1 :MTR=minA goto4
-:Coll=0 :MRF=0 :MTR=0 goto1
-if :MTCR <= minA then :MTR=maxA goto6 else goto5 end
-if :MTCR >= maxA then :MTR=minA end goto6
-if :Mine == 0 then goto3 else goto4 end
+minA=-5 maxA=5 :MTR=0 if :Mine==1 then goto2 else goto1 end
+:Coll=1 :MRF=1 if :MRotate==1 then :MTR=minA goto4 else goto1 end
+:Coll=0 :MTR=0 goto1
+if :MTCR<=minA then :MTR=maxA goto6 else goto5 end
+if :MTCR>=maxA then :MTR=minA end goto6
+if :Mine==0 then goto3 else if :MRotate==1 then goto4 end end goto1
